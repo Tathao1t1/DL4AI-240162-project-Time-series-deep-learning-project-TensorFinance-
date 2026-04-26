@@ -1,6 +1,6 @@
 <div align="center">
 
-# QuantPulse AI
+# TensorFinance AI
 
 ### Financial Time Series Prediction & Systematic Trading Research Platform
 
@@ -218,11 +218,15 @@ docker-compose up --build
 ```
 
 App on **http://localhost** · API docs on **http://localhost/api/docs**
-<img width="1421" height="792" alt="image" src="https://github.com/user-attachments/assets/e022d876-54c9-41d2-acce-63c468c92a30" />
-<img width="1456" height="510" alt="image" src="https://github.com/user-attachments/assets/b974dd59-34a0-4b57-9f0a-95758b56c61d" />
-<img width="1431" height="798" alt="image" src="https://github.com/user-attachments/assets/e344c2ff-d08c-4df8-b266-c35b8793f437" />
-<img width="1465" height="680" alt="image" src="https://github.com/user-attachments/assets/70cb9936-1bb8-48b1-9d3b-e41eda9da3c9" />
-<img width="1147" height="627" alt="image" src="https://github.com/user-attachments/assets/22d8b3f3-a3c5-4364-9686-bb422ee5eee7" />
+<img width="1433" height="802" alt="image" src="https://github.com/user-attachments/assets/beb95a0a-ac36-47a8-85f2-8d1302f7955d" />
+<img width="1441" height="498" alt="image" src="https://github.com/user-attachments/assets/58547156-f625-47fd-b7a0-81efb82413a8" />
+<img width="1114" height="801" alt="image" src="https://github.com/user-attachments/assets/db8274bd-ee05-4885-bdc2-f4cf2544ef01" />
+<img width="1470" height="673" alt="image" src="https://github.com/user-attachments/assets/07a849f9-b930-4929-a9f7-ef256621c1fa" />
+<img width="1454" height="686" alt="image" src="https://github.com/user-attachments/assets/fe7477b9-f36e-4506-a184-544e6e8b561b" />
+
+
+
+
 
 
 
