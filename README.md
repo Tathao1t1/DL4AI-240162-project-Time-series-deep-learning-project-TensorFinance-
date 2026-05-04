@@ -1,6 +1,6 @@
 <div align="center">
 
-# TensorFinance
+# TensorFinance AI
 
 ### Deep Learning for Financial Time Series — CS313 Final Project
 
