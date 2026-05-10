@@ -254,7 +254,7 @@ DL4AI-240162-project/
 │   ├── main.py                   # App factory, lifespan, CORS
 │   ├── scheduler.py              # Daily pipeline (APScheduler)
 │   ├── database.py               # Motor async MongoDB client
-│   ├── auth/                     # JWT auth (register, login, me)
+│   ├                   
 │   └── routers/
 │       ├── predict.py            # Task 2 — VN prediction endpoints
 │       ├── predict_nasdaq.py     # Task 1 — NASDAQ prediction endpoints
@@ -312,8 +312,7 @@ Interactive docs available at `/docs` (Swagger UI) or `/redoc` when the server i
 | `GET` | `/api/v1/live/prices?tickers=FPT&market=VN` | SSE live price stream |
 | `GET` | `/api/v1/pipeline/status` | Last pipeline run status |
 | `POST` | `/api/v1/pipeline/trigger` | Manually trigger data pipeline (auth required) |
-| `POST` | `/api/v1/auth/register` | Register new user |
-| `POST` | `/api/v1/auth/login` | Login, returns JWT |
+
 
 ---
 
