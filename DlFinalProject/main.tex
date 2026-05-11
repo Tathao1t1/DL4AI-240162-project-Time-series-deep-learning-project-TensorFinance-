@@ -1335,13 +1335,14 @@ to allow higher concentration in the highest-return candidates.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.85\textwidth]{task4_portfolio_optimization.png}
-    \caption{Mean variance optimisation.}
+    \caption{Efficient frontier and final portfolio allocations for both strategies.}
     \label{fig:t4_portfolio}
 \end{figure}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.85\textwidth]{projectedReturns.png}
-    \caption{Expected returns of 2 portfolios during 7-day  period using output from Task 2.}
+    \caption{Projected 7-day cumulative returns for both portfolios
+             using Task~2 consecutive-day predictions.}
     \label{fig:t4_projected_returns}
 \end{figure}
 \begin{table}[h]
@@ -1460,7 +1461,7 @@ Two portfolio variants
 
 \subsection{Portfolio Results}
 
-Table~\ref{tab:portfolios} presents the final weights for both strategies.
+Table~\ref{tab:portfolio_alloc} presents the final weights for both strategies.
 
 \begin{table}[h]
 \centering
@@ -1501,6 +1502,7 @@ the 10 candidates and were driven to zero by the MVO
 long-only constraint.
 
 
+\clearpage
 \section{Task 5 --- Production Deployment}
 
 \subsection{System Overview}
@@ -1595,7 +1597,6 @@ pipeline trigger endpoint:
 
 \begin{verbatim}
 POST /api/v1/pipeline/trigger
-Authorization: Bearer <JWT>
 \end{verbatim}
 
 The endpoint runs \texttt{run\_pipeline()} as a FastAPI

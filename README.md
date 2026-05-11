@@ -15,12 +15,15 @@
 
 An end-to-end platform for deep learning–based stock price forecasting and systematic trading, covering **31 NASDAQ tickers** (LSTM) and **28 Vietnam HOSE tickers** (CNN-LSTM) — from raw OHLCV data all the way to a live React dashboard served through a production FastAPI backend.
 
+**[📺 Product Demo (Google Drive)](https://drive.google.com/drive/folders/1uLG1LHZHMZ8kd9zdVAq6DgSJLaYHC6DB)**
+
 </div>
 
 ---
 
 ## 📋 Table of Contents
 
+- [Product Demo](#-product-demo)
 - [Project Tasks](#-project-tasks)
 - [Model Performance](#-model-performance)
 - [System Architecture](#-system-architecture)
@@ -28,6 +31,14 @@ An end-to-end platform for deep learning–based stock price forecasting and sys
 - [Project Structure](#-project-structure)
 - [API Reference](#-api-reference)
 - [License](#-license)
+
+---
+
+## 📺 Product Demo
+
+A screen-recorded walkthrough of the live TensorFinance dashboard is available on Google Drive:
+
+**[▶ Watch Demo](https://drive.google.com/drive/folders/1uLG1LHZHMZ8kd9zdVAq6DgSJLaYHC6DB)**
 
 ---
 
