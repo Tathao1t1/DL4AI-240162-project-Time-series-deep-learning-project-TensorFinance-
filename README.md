@@ -16,6 +16,8 @@
 An end-to-end platform for deep learning–based stock price forecasting and systematic trading, covering **31 NASDAQ tickers** (LSTM) and **28 Vietnam HOSE tickers** (CNN-LSTM) — from raw OHLCV data all the way to a live React dashboard served through a production FastAPI backend.
 
 **[📺 Product Demo (Google Drive)](https://drive.google.com/drive/folders/1uLG1LHZHMZ8kd9zdVAq6DgSJLaYHC6DB)**
+**[📺 Product Link(ngrok)](https://chooser-deprecate-briskly.ngrok-free.dev/)**
+
 
 </div>
 
@@ -118,11 +120,11 @@ All metrics are computed on a **held-out test set** using strict chronological t
 
 ### Task 2 — Vietnam CNN-LSTM (averaged over 28 tickers, prices in VND)
 
-| Horizon | MAE (VND) | RMSE (VND) | Directional Accuracy |
+| Horizon | MAE (VND) | RMSE (VND) |
 |---|---|---|---|
-| Next-day (k=1) | 474 | 729 | 44.4% |
-| k=3 | 845 | 1,271 | 49.2% |
-| k=7 | 1,306 | 1,916 | 48.5% |
+| Next-day (k=1) | 474 | 729 |
+| k=3 | 845 | 1,271 |
+| k=7 | 1,306 | 1,916 | 
 
 ### Task 3 — Trading Signal Classifiers (averaged over 28 tickers)
 
@@ -174,7 +176,9 @@ Raw OHLCV CSVs
 
 ## 🚀 Quick Start
 
-### Option A — Docker (recommended)
+### Visting the website for quick view : **[📺 Product Link(ngrok)](https://chooser-deprecate-briskly.ngrok-free.dev/)**
+
+### Option A — Docker 
 
 **Prerequisites:** [Docker Desktop](https://docs.docker.com/desktop/)
 
